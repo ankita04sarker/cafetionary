@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('image/cafe.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  }
+
+  .main{
+    width: 1250px;
+    height: 450px;
+  margin: auto;
+  }
+
+.logo{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  padding: 5px;
+
+}
+
+.search-box{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  height: 30px;
+  border-radius: 35px;
+  padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+  background: white;
+}
+
+.search-btn{
+  color: #e84118;
+  float: right;
+  width: 30px;
+  height: 27px;
+  border-radius: 40%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: Black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 10px;
+  width: 100px;
+}
+
+.navbar-nav {
+  float: right;
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.navbar-nav  li{
+display: inline-block;
+list-style: none;
+margin-left: 40px;
+}
+
+.navbar-nav li a{
+   color: pink;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    display: block;
+}
+
+.navbar-nav li a:hover{
+  background-color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+.main navbar-nav
+{
+ position: absolute;
+ display: none;
+}
+.main navbar-nav dropdown-menu:hover> navbar-nav
+{
+	display: block;
+}
+
+
+ul li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+ul li.active a{
+  border-radius: 35px;
+  background-color: #fff;
+  color: #000;
+}
+
+.title{
+  width: 1200px;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 60px;
+}
+
+.button{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  color: #bf55ec;
+  border: 1px solid;
+}
+
+.btn{
+  display: inline-block;
+  padding: 5px 5px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 100px;
+  transition: background-color 0.2, border 0.2s ,color 0.2;
+}
+
+.btn:hover{
+  background: #fff;
+  color: #333;
+}

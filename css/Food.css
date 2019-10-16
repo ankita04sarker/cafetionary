@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+
+.img-responsive{
+	max-width: 100%;
+
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('image/cafe.jpg');
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-color: gray;
+}
+.menu-bar ul{
+
+	list-style: none;
+
+}
+.menu-bar ul li{
+	background-color: transparent ;
+	border: 1px solid transparent;
+	width: 120px;
+	height: 35px;
+	line-height:35px;
+	text-align: center;
+	float: left;
+	position: relative;
+	margin-top: 30px;
+
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	transition: 0.6s ease;
+}
+
+.menu-bar ul li a:hover{
+	background-color: green;
+	color: black;
+}
+
+.logo img{
+	float: left;
+	width: 255px;
+	height: auto;
+
+}
+.menu-bar{
+	width: 100%;
+	margin: auto;
+}
+.menu-bar ul ul
+{
+
+background-color: black;
+ position: absolute;
+ display: none;
+}
+.menu-bar ul ul ul{
+	background-color: black;
+}
+
+.menu-bar ul li:hover> ul
+{
+
+	display: block;
+}
+.menu-bar ul ul ul
+{
+	margin-left: 120px;
+	top: -31px;
+}
+.product{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product-list-item{
+	float: left;
+	width: 32%;
+	margin-left: .5rem;
+
+}
+.title{
+
+	background-color: #f9ffba;
+}
+.product-list-item:first-of-type{
+margin-left: 0;
+}
+.text{
+	margin-top: 50px;
+}
+#text{
+			background-color:#f9ffba;
+			width: 100%;
+			height: 727px;
+			border: transparent;
+			font-size: 35px;
+			overflow: scroll;
+			text-align: center;
+		}
